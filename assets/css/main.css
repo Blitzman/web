@@ -158,7 +158,8 @@
 		-webkit-transition: color 0.2s ease, border-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-color 0.2s ease;
 		transition: color 0.2s ease, border-color 0.2s ease;
-		color: #777;
+		color: #444;
+    border-bottom: 1px dotted #CCC;
 		text-decoration: none;
 	}
 		a span {
@@ -174,6 +175,7 @@
 
 		a:hover {
 			color: #000;
+      border-bottom: 1px dotted #000;
 		}
 
 	strong, b {
@@ -526,6 +528,7 @@
 			}
 
 				ul.icons li a {
+          border:none;
           opacity: 0.75;
 					text-decoration: none;
 					position: relative;
@@ -733,6 +736,7 @@
 			}
 
 			#main .avatar:before {
+        opacity: 0.75;
 				content: '';
 				display: block;
 				position: absolute;
@@ -804,6 +808,9 @@
 	.social-networks {
 		opacity: 0.75;
 	}
+  .social-networks a {
+    border: none;
+  }
 
 /* Footer */
 
