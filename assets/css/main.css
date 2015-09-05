@@ -514,6 +514,43 @@
 					padding-top: 0;
 				}
 
+    ul.menu {
+      font-size: 0.8em;
+      cursor: default;
+      list-style: none;
+      padding-left: 0;
+      margin-top: -0.675em;
+      margin-bottom: 0.5em;
+    }
+      ul.menu li {
+        display: inline-block;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+        margin: 0 0 1em 0.45em;
+				padding: 0 0 0 0.85em;
+      }
+
+      ul.menu li:first-child {
+        border-left: none;
+      }
+
+      ul.menu li a {
+        -moz-transition: color 0.2s ease, text-shadow 0.2s ease;
+			  -webkit-transition: color 0.2s ease, text-shadow 0.2s ease;
+		  	-ms-transition: color 0.2s ease, text-shadow 0.2s ease;
+	  		transition: color 0.2s ease, text-shadow 0.2s ease;
+        color: #888!important;
+        border: none;
+      }
+      ul.menu li a:before {
+  			-moz-transition: color 0.2s ease, text-shadow 0.2s ease;
+			  -webkit-transition: color 0.2s ease, text-shadow 0.2s ease;
+		  	-ms-transition: color 0.2s ease, text-shadow 0.2s ease;
+	  		transition: color 0.2s ease, text-shadow 0.2s ease;
+  		}
+      ul.menu li a:hover {
+        color: #000!important;
+      }
+
 		ul.icons {
 			cursor: default;
 			list-style: none;
