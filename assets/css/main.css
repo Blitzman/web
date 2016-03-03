@@ -50,6 +50,13 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	code {
+		display: block;
+		white-space: pre-wrap;
+		color: #000!important;
+		text-align: left!important;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
